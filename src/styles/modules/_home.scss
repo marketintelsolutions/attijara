@@ -1,0 +1,98 @@
+.section-one {
+  height: 70vh;
+  //   height: 753px;
+  max-height: 753px;
+  width: 100%;
+  //   border: 2px solid red;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+
+  &::before {
+    content: "";
+    background: #52658d;
+    opacity: 0.55;
+    height: 70vh;
+    max-height: 753px;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+  }
+
+  & .content {
+    z-index: 3;
+    position: relative;
+    width: 80%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    // border: 2px solid blue;
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+    & h1 {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 46px;
+      /* or 128% */
+      max-width: 426px;
+
+      display: flex;
+      align-items: center;
+
+      color: #ffffff;
+    }
+
+    p {
+      font-family: "Heebo";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 24px;
+      /* identical to box height, or 150% */
+
+      display: flex;
+      align-items: center;
+
+      color: #ffffff;
+    }
+
+    & button {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      //   padding: 20px 40.11px 20px 41px;
+      background: #ad832d;
+      border-radius: 3px;
+      border: none;
+      width: 190.11px;
+      height: 56px;
+      font-family: "Heebo";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      cursor: pointer;
+      color: #ffffff;
+      transition: var(--transition);
+
+      &:hover {
+        color: #ad832d;
+        background: white;
+        transition: var(--transition);
+      }
+    }
+  }
+}
