@@ -13,7 +13,7 @@ const Navbar = () => {
           <h1>Attijara Finance</h1>
         </div>
         <div className="right">
-          <div className="item">
+          <div className="item active">
             <p>Home</p>
           </div>
           <div className="item">

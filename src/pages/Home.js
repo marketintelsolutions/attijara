@@ -1,5 +1,6 @@
 import React from "react";
 import SectionOne from "../components/Home/SectionOne";
+import SectionTwo from "../components/Home/SectionTwo";
 import Navbar from "../components/Navbar";
 import Prenav from "../components/Prenav";
 
@@ -9,6 +10,7 @@ const Home = () => {
       <Prenav />
       <Navbar />
       <SectionOne />
+      <SectionTwo />
     </div>
   );
 };

@@ -90,6 +90,10 @@
       gap: 60px;
       align-items: center;
 
+      & .item {
+        cursor: pointer;
+      }
+
       & p {
         font-family: "Neris";
         font-style: normal;
@@ -103,6 +107,12 @@
         text-align: center;
 
         color: #000000;
+      }
+
+      & .active {
+        p {
+          color: #ad832d;
+        }
       }
 
       & .phone {

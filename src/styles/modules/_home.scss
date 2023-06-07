@@ -96,3 +96,31 @@
     }
   }
 }
+
+.section-two {
+  //   border: 2px solid red;
+
+  & .content {
+    width: 80%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    display: flex;
+    gap: 41px;
+    // border: 2px solid blue;
+
+    & p {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      /* or 140% */
+
+      display: flex;
+      align-items: center;
+      text-align: justify;
+
+      color: #000000;
+    }
+  }
+}
