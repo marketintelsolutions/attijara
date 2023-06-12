@@ -11,14 +11,11 @@ import Prenav from "../components/Prenav";
 const Home = () => {
   return (
     <div>
-      <Prenav />
-      <Navbar />
       <SectionOne />
       <SectionTwo />
       <SectionThree />
       <SectionFour />
       <SectionFive />
-      <Footer />
     </div>
   );
 };

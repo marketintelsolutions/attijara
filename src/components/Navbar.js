@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../assets/logos/logo.svg";
 import phone from "../assets/logos/phone.svg";
 
@@ -13,12 +14,12 @@ const Navbar = () => {
           <h1>Attijara Finance</h1>
         </div>
         <div className="right">
-          <div className="item active">
+          <Link to="/" className="item active">
             <p>Home</p>
-          </div>
-          <div className="item">
+          </Link>
+          <Link to="/about" className="item">
             <p>About Us</p>
-          </div>
+          </Link>
           <div className="item">
             <p>Services</p>
           </div>

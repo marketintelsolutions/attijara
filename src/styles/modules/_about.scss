@@ -1,0 +1,125 @@
+.about-section-one {
+  //   border: 2px solid red;
+  position: relative;
+
+  & .content {
+    // border: 2px solid blue;
+    margin: 0 auto;
+    // display: flex;
+
+    & .left {
+      position: relative;
+      //   border: 2px solid green;
+      //   height: ;
+      //   padding: 366px 107px;
+      display: flex;
+
+      & .image {
+        max-width: 1301px;
+        width: 75%;
+        // border: 2px solid red;
+        position: relative;
+
+        &::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: #52658d;
+          opacity: 0.8;
+          mix-blend-mode: darken;
+        }
+
+        & img {
+          width: 100%;
+        }
+      }
+
+      & .center {
+        position: absolute;
+        // margin: 0 auto;
+        // border: 2px solid white;
+        // top: 366px;
+        bottom: 107px;
+        // margin: 366px 107px;
+        width: 100%;
+
+        & .content-center {
+          max-width: var(--max-width);
+          //   border: 2px solid blue;
+          margin: 0 auto;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+
+          & h2 {
+            font-family: "Lato";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 46px;
+            display: flex;
+            align-items: center;
+            color: #ffffff;
+          }
+
+          & p {
+            font-family: "Lato";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 28px;
+            display: flex;
+            align-items: center;
+            text-align: justify;
+            color: #ffffff;
+            max-width: 523px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.about-section-two {
+  position: relative;
+  & .content {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding-top: 91px;
+
+    & p {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      display: flex;
+      align-items: center;
+      text-align: justify;
+      color: #52658d;
+      max-width: 523px;
+    }
+  }
+
+  & .right {
+    position: absolute;
+    // top: 157px;
+    bottom: 0;
+    right: 0;
+    width: 51%;
+    //   height: 989px;
+    max-width: 918px;
+    max-height: 989px;
+    //   border: 2px solid red;
+
+    & img {
+      width: 100%;
+      height: 989px;
+      height: 100%;
+      // object-fit: cover;
+    }
+  }
+}
