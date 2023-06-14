@@ -20,9 +20,9 @@ const Navbar = () => {
           <Link to="/about" className="item">
             <p>About Us</p>
           </Link>
-          <div className="item">
+          <Link to="services" className="item">
             <p>Services</p>
-          </div>
+          </Link>
           <div className="item">
             <p>Contact</p>
           </div>
