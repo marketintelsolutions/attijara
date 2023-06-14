@@ -50,3 +50,38 @@ export const missionStatements = [
     image: happyFriends,
   },
 ];
+
+export const coreValues = [
+  {
+    heading: "Integrity",
+    item: " We uphold the highest standards of integrity in all our interactions. We are committed to being honest, transparent, and ethical in our dealings with clients, employees, and stakeholders. Trust is the foundation of our relationships, and we strive to maintain it at all times.",
+  },
+  {
+    heading: "Customer Focus",
+    item: "Our customers are at the center of everything we do. We listen to their needs, understand their goals, and provide personalized solutions to meet their financial requirements. We are dedicated to delivering exceptional service, exceeding expectations, and building long-lasting relationships based on mutual trust and respect.",
+  },
+  {
+    heading: "Excellence",
+    item: "We pursue excellence in every aspect of our operations. We are driven to continuously improve and innovate to deliver the best financial products, services, and experiences to our clients. We encourage a culture of continuous learning, professional growth, and staying ahead of industry trends to ensure we consistently deliver superior outcomes.",
+  },
+  {
+    heading: "Teamwork",
+    item: "We believe in the power of collaboration and teamwork. We foster an inclusive and supportive environment where every team member's contributions are valued. By leveraging the diverse skills and expertise of our employees, we achieve collective success and deliver the highest value to our clients.",
+  },
+  {
+    heading: "Accountability",
+    item: "We take ownership of our actions and decisions. We are accountable for delivering on our commitments and taking responsibility for the outcomes. We strive for transparency in our operations and communicate openly with our clients and stakeholders.",
+  },
+  {
+    heading: "Respect",
+    item: "We treat everyone with respect and dignity. We embrace diversity and value the unique perspectives and backgrounds of our clients and employees. We foster an inclusive environment that encourages open dialogue, teamwork, and mutual support.",
+  },
+  {
+    heading: "Social Responsibility",
+    item: "We are committed to making a positive impact on society. We actively contribute to the communities we serve, supporting initiatives that promote financial literacy, economic empowerment, and sustainable development. We prioritize ethical business practices, environmental sustainability, and social welfare",
+  },
+  {
+    heading: "Security and Privacy",
+    item: "We prioritize the security and privacy of our clients' information. We employ robust security measures to protect their financial data and maintain strict confidentiality. Trust and safeguarding our clients' assets are paramount to us.",
+  },
+];

@@ -87,7 +87,7 @@
   position: relative;
   & .content {
     max-width: var(--max-width);
-    margin: 0 auto;
+    margin: 0 auto 137px;
     padding-top: 91px;
 
     & p {
@@ -120,6 +120,108 @@
       height: 989px;
       height: 100%;
       // object-fit: cover;
+    }
+  }
+}
+
+.about-section-three {
+  width: 100%;
+  position: relative;
+
+  & .image {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      // width: 100%;
+      // height: 100%;
+      height: 388px;
+      width: 100%;
+      background: #ad832d;
+      opacity: 0.7;
+      z-index: 2;
+    }
+    & img {
+      object-fit: cover;
+      height: 388px;
+      width: 100%;
+    }
+  }
+
+  & .core-values {
+    // position: relative;
+    min-height: 900px;
+    background: #f0f5ff;
+    // opacity: 0.7;
+
+    & .center {
+      position: absolute;
+      width: 100%;
+      // border: 2px solid blue;
+      transform: translateY(-192px);
+      z-index: 2;
+
+      & .content {
+        width: var(--max-width);
+        margin: 0 auto;
+        // border: 2px solid red;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        align-items: center;
+
+        & h1 {
+          font-family: "Lato";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 36px;
+          line-height: 46px;
+          color: #ffffff;
+        }
+
+        & .values {
+          display: flex;
+          // grid-template-columns: 1fr 1fr 1fr;
+          flex-wrap: wrap;
+          gap: 20px;
+          justify-content: center;
+          // align-items: center;
+          // grid-auto-rows: auto;
+
+          & .item {
+            padding: 20px 45px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            background: #ffffff;
+            box-shadow: 0px 8px 4px rgba(189, 186, 186, 0.25);
+            border-radius: 10px;
+            max-width: 343px;
+
+            & h2 {
+              font-family: "Lato";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 22px;
+              line-height: 32px;
+              text-align: center;
+              color: #ad832d;
+            }
+
+            & p {
+              font-family: "Lato";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 15px;
+              line-height: 22px;
+              text-align: center;
+              color: #000000;
+            }
+          }
+        }
+      }
     }
   }
 }
