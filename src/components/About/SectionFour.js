@@ -1,4 +1,5 @@
 import React from "react";
+import { team } from "../../utils/data";
 
 const SectionFour = () => {
   return (
@@ -21,7 +22,22 @@ const SectionFour = () => {
           We take pride in our team's professionalism, integrity, and commitment
           to excellence.
         </p>
-        <div className="members"></div>
+        <div className="members">
+          {team.map((member) => {
+            const { image, text } = member;
+
+            return (
+              <div className="item">
+                <div className="image">
+                  <img src={image} alt={text} />
+                </div>
+                <div className="text">
+                  <h3>{text}</h3>
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );

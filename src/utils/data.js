@@ -3,6 +3,9 @@ import africanMan from "../assets/images/africanMan.png";
 import closeUp from "../assets/images/closeUp.png";
 import stackingWood from "../assets/images/stackingWood.png";
 import happyFriends from "../assets/images/happyFriends.png";
+import mahmud from "../assets/images/mahmud.png";
+import mojeed from "../assets/images/mojeed.png";
+import lawal from "../assets/images/lawal.png";
 
 export const chooseUs = [
   {
@@ -83,5 +86,20 @@ export const coreValues = [
   {
     heading: "Security and Privacy",
     item: "We prioritize the security and privacy of our clients' information. We employ robust security measures to protect their financial data and maintain strict confidentiality. Trust and safeguarding our clients' assets are paramount to us.",
+  },
+];
+
+export const team = [
+  {
+    image: mahmud,
+    text: "ALH. DR MAHMUD YAYALE AHMED CFR ",
+  },
+  {
+    image: mojeed,
+    text: "ABDUL-MOJEED ADEBOLA BHADMUS ",
+  },
+  {
+    image: lawal,
+    text: "ALH. LAWAL GARBA ABUBAKAR ",
   },
 ];
