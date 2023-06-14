@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import afroAmericans from "../../assets/images/afroAmericans.png";
 import { coreValues } from "../../utils/data";
 

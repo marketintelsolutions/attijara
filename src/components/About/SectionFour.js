@@ -1,7 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { team } from "../../utils/data";
+import close from "../../assets/logos/close.svg";
 
 const SectionFour = () => {
+  const [content, setContent] = useState({});
+  const [isContent, setIsContent] = useState(false);
+
+  const handleClick = (e) => {
+    // console.log(e.target.classList.contains("details"));
+    if (e.target.classList.contains("details")) setIsContent(false);
+  };
+
   return (
     <div className="about-section-four">
       <div className="content">
@@ -27,7 +36,13 @@ const SectionFour = () => {
             const { image, text } = member;
 
             return (
-              <div className="item">
+              <div
+                className="item"
+                onClick={() => {
+                  setIsContent(true);
+                  setContent(member);
+                }}
+              >
                 <div className="image">
                   <img src={image} alt={text} />
                 </div>
@@ -39,6 +54,18 @@ const SectionFour = () => {
           })}
         </div>
       </div>
+      {isContent && (
+        <div className="details" onClick={(e) => handleClick(e)}>
+          <div className="center">
+            <div className="close" onClick={() => setIsContent(false)}>
+              <img src={close} alt="close" />
+            </div>
+            <h4>{content.text}</h4>
+            <p>{content.details}</p>
+            {/* <p>hello</p> */}
+          </div>
+        </div>
+      )}
     </div>
   );
 };

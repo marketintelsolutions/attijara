@@ -227,6 +227,7 @@
 }
 
 .about-section-four {
+  position: relative;
   padding: 65px 0;
   & .content {
     max-width: var(--max-width);
@@ -295,6 +296,61 @@
             color: #52658d;
           }
         }
+      }
+    }
+  }
+
+  & .details {
+    position: fixed;
+    z-index: 3;
+    background: rgba(173, 131, 45, 0.8);
+    // opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 103px;
+
+    & .center {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 745px;
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 100px;
+      align-items: center;
+      opacity: 1;
+      position: relative;
+
+      & h4 {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #ad832d;
+      }
+
+      & p {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        color: #000000;
+      }
+
+      & .close {
+        position: absolute;
+        top: 30px;
+        right: 45px;
+        cursor: pointer;
       }
     }
   }

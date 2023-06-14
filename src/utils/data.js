@@ -93,13 +93,19 @@ export const team = [
   {
     image: mahmud,
     text: "ALH. DR MAHMUD YAYALE AHMED CFR ",
+    details:
+      "Mahmud Yayale is an industry heavyweight with years if experience in both the private and public sector. He holds a degree in Social Science from the prestigious Ahmadu Bello University Zaria, where he also holds a Masters Degree in Public Administration. He brings his wealth of experience in public planning and administration having served as a Director of Finance and Supplies with the ministry of Internal Affairs. His record in the public service speaks for itself serving variously as DG/Perm Sec of the Ministry of Internal Affairs, Permanent Secretary, Federal Ministry of Education, Head of Civil of the Federation, Minister of Defence and Secretary to the Government of the Federation.",
   },
   {
     image: mojeed,
     text: "ABDUL-MOJEED ADEBOLA BHADMUS ",
+    details:
+      "Abdul-Mojeed Adebola Bhadmus is an accomplished and experienced Investment Banker and a business professional with a proven record of accomplishment of working in the private sector in areas of Business Origination,Financial Advisory, Bond Sales & Trading and Asset Management. He has consulted widely,provide financial and investment management advisory services for sovereign and sub-sovereign,telecoms, oil, and gas and the FMCG industries.He currently works as the CEO of Wealthbridge Asset Management Limited and a Director in Wealthbbridge Capital Partners, a financial advisory and management firm. Prior to that he was afounding director of Dunn Loren Merrifield Capital Group Ltd, an investment firm. He brings his wealth of experience in investment banking and the financial services to the table.",
   },
   {
     image: lawal,
     text: "ALH. LAWAL GARBA ABUBAKAR ",
+    details:
+      "Lawal Abubakar Garba is a legal and political juggernaut. He first obtained a Diploma in Law from Ahmadu Bello University, Zaria before proceeding to obtain a Bachelors Degree in Law from the same institution. Thereafter he proceeded to the Nigerian Law School where he became a Barrister at Law. Thereafter, he has acquired several other degrees including a Doctor of Philophy in Corporate Law from the University of Abuja. He has practiced law across sectors and industries before being elected to the National Assembly as the House of Representatives representing Yola North, Yola South and Girei areas of Adamawa state. Upon leaving the National Assembly, he has worked as the Principal Partner at Basira Law Firm since 2019. He brings his unrivalled knowledge of the Nigerian legal sector to the table.",
   },
 ];
