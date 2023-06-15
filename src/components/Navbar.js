@@ -23,9 +23,9 @@ const Navbar = () => {
           <Link to="services" className="item">
             <p>Services</p>
           </Link>
-          <div className="item">
+          <Link to="/contact" className="item">
             <p>Contact</p>
-          </div>
+          </Link>
           <div className="item phone">
             <img src={phone} alt="phone" />
             <div className="text">
