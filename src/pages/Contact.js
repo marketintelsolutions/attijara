@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import SectionOne from "../components/Contact/SectionOne";
 import SectionTwo from "../components/Contact/SectionTwo";
 
