@@ -79,12 +79,18 @@
             border-radius: 5px;
             height: 49px;
             width: 479px;
+            padding: 10px;
+            font-size: 16px;
           }
 
           & textarea {
             width: 479px;
             height: 236px;
             resize: none;
+            background: #f3f3f3;
+            font-size: 16px;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
           }
         }
 
