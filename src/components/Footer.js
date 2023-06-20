@@ -2,7 +2,7 @@ import React from "react";
 import logoTransparent from "../assets/logos/logoTransparent.svg";
 import locationGrey from "../assets/logos/locationGrey.svg";
 import emailGrey from "../assets/logos/emailGrey.svg";
-// import phoneGrey from "../assets/logos/phoneNew.svg";
+import phoneGrey from "../assets/logos/phone.svg";
 import arrowGreen from "../assets/logos/arrowGreen.svg";
 import instagramBlack from "../assets/logos/instagramBlack.svg";
 import twitterBlack from "../assets/logos/twitterBlack.svg";
@@ -27,7 +27,7 @@ const Footer = () => {
             <p>contact@domain.com</p>
           </div>
           <div className="contact-item">
-            <img src="" alt="" />
+            <img src={phoneGrey} alt="phoneGrey" />
             <p>
               08036412211,
               <br /> 07032259444,

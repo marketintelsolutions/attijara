@@ -47,8 +47,9 @@ const Navbar = () => {
           <div className="item phone">
             <img src={phone} alt="phone" />
             <div className="text">
-              <p>Call Us Now</p>
-              <h3>080 3641 2211</h3>
+              {/* <p>Call Us Now</p> */}
+              <h3>+2348036412211</h3>
+              <h3>+2348074698948 </h3>
             </div>
           </div>
         </div>

@@ -17,7 +17,9 @@ const Prenav = () => {
           </div>
           <div className="item">
             <img src={location} alt="location" />
-            <p>Jl. Sunset Road No.815, Kuta, Bali 80361</p>
+            <p>
+              Suite C2 Wing C Plot 72, Ahmadu Bello Way, Abuja, FCT, Nigeria
+            </p>
           </div>
         </div>
         <div className="right">
