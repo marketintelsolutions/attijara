@@ -15,11 +15,14 @@ const SectionThree = () => {
             <h1>Our Core values</h1>
             <div className="values">
               {coreValues.map((i) => {
-                const { heading, item } = i;
+                const { heading, item, image } = i;
 
                 return (
                   <div className="item">
-                    <h2>{heading}</h2>
+                    <div className="heading">
+                      <img src={image} alt={heading} />
+                      <h2>{heading}</h2>
+                    </div>
                     <p>{item}</p>
                   </div>
                 );
