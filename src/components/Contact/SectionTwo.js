@@ -36,7 +36,9 @@ const SectionTwo = () => {
               <label htmlFor="message">Message</label>
               <textarea name="message" id="message"></textarea>
             </div>
-            <button>submit</button>
+            <div className="button form-item">
+              <button>submit</button>
+            </div>
           </form>
           <div className="info">
             <h1>Contact Info</h1>

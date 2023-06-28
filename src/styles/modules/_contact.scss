@@ -19,6 +19,13 @@
       line-height: 46px;
       text-align: center;
       color: #000000;
+
+      @media (max-width: $breakpoint-large) {
+        font-size: 30px;
+      }
+      @media (max-width: $breakpoint-tablet) {
+        font-size: 25px;
+      }
     }
 
     & .top-text {
@@ -30,15 +37,28 @@
       text-align: center;
       color: #000000;
       max-width: 932px;
+
+      @media (max-width: $breakpoint-large) {
+        font-size: 18px;
+      }
+      @media (max-width: $breakpoint-tablet) {
+        font-size: 15px;
+      }
     }
 
     & .form-container {
-      //   border: 2px solid green;
+      // border: 2px solid green;
       margin-top: 40px;
       width: 100%;
       display: flex;
       gap: 50px;
       justify-content: center;
+
+      @media (max-width: $breakpoint-large) {
+        flex-wrap: wrap;
+      }
+      @media (max-width: $breakpoint-tablet) {
+      }
 
       & form {
         box-shadow: 4px 4px 26px rgba(189, 189, 189, 0.25);
@@ -48,6 +68,13 @@
         flex-direction: column;
         gap: 21px;
         // border: 2px solid red;
+        @media (max-width: $breakpoint-large) {
+          // max-width: 90%;
+          // justify-content: center;
+          align-items: center;
+        }
+        @media (max-width: $breakpoint-tablet) {
+        }
 
         & h1 {
           font-family: "Lato";
@@ -56,12 +83,25 @@
           font-size: 36px;
           line-height: 46px;
           color: #000000;
+
+          @media (max-width: $breakpoint-large) {
+            font-size: 30px;
+          }
+          @media (max-width: $breakpoint-tablet) {
+            font-size: 25px;
+          }
         }
 
         & .form-item {
           display: flex;
           flex-direction: column;
           gap: 10px;
+
+          @media (max-width: $breakpoint-large) {
+            max-width: 90%;
+          }
+          @media (max-width: $breakpoint-tablet) {
+          }
 
           & label {
             font-family: "Lato";
@@ -71,6 +111,13 @@
             line-height: 28px;
             text-align: justify;
             color: #000000;
+
+            @media (max-width: $breakpoint-large) {
+              font-size: 18px;
+            }
+            @media (max-width: $breakpoint-tablet) {
+              font-size: 15px;
+            }
           }
 
           & input {
@@ -81,6 +128,14 @@
             width: 479px;
             padding: 10px;
             font-size: 16px;
+
+            @media (max-width: $breakpoint-large) {
+              max-width: 100%;
+              font-size: 14px;
+            }
+            @media (max-width: $breakpoint-tablet) {
+              font-size: 12px;
+            }
           }
 
           & textarea {
@@ -91,7 +146,21 @@
             font-size: 16px;
             border: 1px solid #e0e0e0;
             border-radius: 5px;
+
+            @media (max-width: $breakpoint-large) {
+              max-width: 100%;
+              font-size: 14px;
+            }
+            @media (max-width: $breakpoint-tablet) {
+              font-size: 12px;
+            }
           }
+        }
+
+        & .button {
+          // height: 49px;
+          min-width: 90%;
+          // width: 479px;
         }
 
         & button {
@@ -111,6 +180,13 @@
           color: white;
           text-transform: capitalize;
           cursor: pointer;
+
+          @media (max-width: $breakpoint-large) {
+            font-size: 18px;
+          }
+          @media (max-width: $breakpoint-tablet) {
+            font-size: 16px;
+          }
         }
       }
 
@@ -146,6 +222,13 @@
                 line-height: 28px;
                 text-align: justify;
                 color: #000000;
+
+                @media (max-width: $breakpoint-large) {
+                  font-size: 18px;
+                }
+                @media (max-width: $breakpoint-tablet) {
+                  font-size: 16px;
+                }
               }
             }
           }
@@ -160,6 +243,13 @@
           color: #000000;
           text-transform: capitalize;
           margin-top: 80px;
+
+          @media (max-width: $breakpoint-large) {
+            font-size: 30px;
+          }
+          @media (max-width: $breakpoint-tablet) {
+            font-size: 26px;
+          }
         }
 
         & .socials {
