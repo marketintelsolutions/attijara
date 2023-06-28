@@ -37,7 +37,7 @@ const SectionTwo = () => {
               <textarea name="message" id="message"></textarea>
             </div>
             <div className="button form-item">
-              <button>submit</button>
+              <button type="button">submit</button>
             </div>
           </form>
           <div className="info">
@@ -61,7 +61,7 @@ const SectionTwo = () => {
                 <img src={mailBig} alt="mailBig" />
                 <div className="text">
                   <p>Our Email</p>
-                  <p>info@ZiltchOne.com</p>
+                  <p>info@attijara.com</p>
                 </div>
               </div>
             </div>

@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
           <div className="contact-item">
             <img src={emailGrey} alt="emailGrey" />
-            <p>contact@domain.com</p>
+            <p>info@attijara.com</p>
           </div>
           <div className="contact-item">
             <img src={phoneGrey} alt="phoneGrey" />
