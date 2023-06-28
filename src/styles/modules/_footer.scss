@@ -4,7 +4,7 @@
   margin-top: 154px;
   display: flex;
   align-items: center;
-  border: 2px solid blue;
+  // border: 2px solid blue;
 
   @media (max-width: $breakpoint-large) {
     margin-top: 124px;
@@ -20,7 +20,7 @@
     width: 80%;
     max-width: var(--max-width);
     margin: 0 auto;
-    border: 2px solid red;
+    // border: 2px solid red;
     // grid-template-columns: 1fr 1fr 1fr 1fr;
 
     @media (max-width: $breakpoint-large) {
