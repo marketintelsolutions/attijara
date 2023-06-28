@@ -47,10 +47,18 @@
         bottom: 107px;
         // margin: 366px 107px;
         width: 100%;
+        padding: 0 3.9rem;
+
+        @media (max-width: $breakpoint-large) {
+          padding: 0 2.9rem;
+        }
+        @media (max-width: $breakpoint-tablet) {
+        }
 
         & .content-center {
           max-width: var(--max-width);
           // border: 2px solid blue;
+          // width: 80%;
           margin: 0 auto;
           display: flex;
           flex-direction: column;
@@ -65,6 +73,13 @@
             display: flex;
             align-items: center;
             color: #ffffff;
+
+            @media (max-width: $breakpoint-large) {
+              font-size: 26px;
+            }
+            @media (max-width: $breakpoint-tablet) {
+              font-size: 20px;
+            }
           }
 
           & p {
@@ -78,6 +93,13 @@
             text-align: justify;
             color: #ffffff;
             max-width: 523px;
+
+            @media (max-width: $breakpoint-large) {
+              font-size: 12px;
+            }
+            @media (max-width: $breakpoint-tablet) {
+              font-size: 10px;
+            }
           }
         }
       }
@@ -87,10 +109,26 @@
 
 .about-section-two {
   position: relative;
+
+  @media (max-width: $breakpoint-large) {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  @media (max-width: $breakpoint-tablet) {
+  }
+
   & .content {
     max-width: var(--max-width);
     margin: 0 auto 137px;
     padding-top: 91px;
+    // border: 2px solid red;
+
+    @media (max-width: $breakpoint-large) {
+      padding: 0 2.5rem;
+    }
+    @media (max-width: $breakpoint-tablet) {
+    }
 
     & p {
       font-family: "Lato";
@@ -103,6 +141,14 @@
       text-align: justify;
       color: #52658d;
       max-width: 523px;
+
+      @media (max-width: $breakpoint-large) {
+        margin: 0 auto;
+        width: fit-content;
+        // border: 2px solid red;
+      }
+      @media (max-width: $breakpoint-tablet) {
+      }
     }
   }
 
@@ -118,6 +164,12 @@
     // border: 2px solid red;
     width: 670px;
     height: 800px;
+    @media (max-width: $breakpoint-large) {
+      // display: none;
+      position: relative;
+    }
+    @media (max-width: $breakpoint-tablet) {
+    }
 
     & img {
       // width: 100%;
@@ -163,20 +215,32 @@
     // opacity: 0.7;
 
     & .center {
-      position: absolute;
+      position: relative;
       width: 100%;
       // border: 2px solid blue;
       transform: translateY(-192px);
       z-index: 2;
 
+      @media (max-width: $breakpoint-large) {
+        transform: translateY(-82px);
+      }
+      @media (max-width: $breakpoint-tablet) {
+      }
+
       & .content {
-        width: var(--max-width);
+        max-width: var(--max-width);
         margin: 0 auto;
         // border: 2px solid red;
         display: flex;
         flex-direction: column;
         gap: 60px;
         align-items: center;
+        @media (max-width: $breakpoint-large) {
+          gap: 80px;
+        }
+        @media (max-width: $breakpoint-tablet) {
+          gap: 90px;
+        }
 
         & h1 {
           font-family: "Lato";
@@ -185,6 +249,13 @@
           font-size: 36px;
           line-height: 46px;
           color: #ffffff;
+
+          @media (max-width: $breakpoint-large) {
+            font-size: 30px;
+          }
+          @media (max-width: $breakpoint-tablet) {
+            font-size: 25px;
+          }
         }
 
         & .values {
@@ -195,6 +266,13 @@
           justify-content: center;
           // align-items: center;
           // grid-auto-rows: auto;
+          // border: 2px solid red;
+
+          @media (max-width: $breakpoint-large) {
+            width: 100%;
+          }
+          @media (max-width: $breakpoint-tablet) {
+          }
 
           & .item {
             padding: 20px 45px;
@@ -205,6 +283,10 @@
             box-shadow: 0px 8px 4px rgba(189, 186, 186, 0.25);
             border-radius: 10px;
             max-width: 343px;
+
+            @media (max-width: $breakpoint-tablet) {
+              padding: 15px 25px;
+            }
 
             & .heading {
               display: flex;
@@ -226,6 +308,13 @@
               line-height: 32px;
               text-align: center;
               color: #ad832d;
+
+              @media (max-width: $breakpoint-large) {
+                font-size: 20px;
+              }
+              @media (max-width: $breakpoint-tablet) {
+                font-size: 18px;
+              }
             }
 
             & p {
@@ -236,6 +325,13 @@
               line-height: 22px;
               text-align: center;
               color: #000000;
+
+              @media (max-width: $breakpoint-large) {
+                font-size: 13px;
+              }
+              @media (max-width: $breakpoint-tablet) {
+                font-size: 11px;
+              }
             }
           }
         }
@@ -247,6 +343,7 @@
 .about-section-four {
   position: relative;
   padding: 65px 0;
+
   & .content {
     max-width: var(--max-width);
     margin: 0 auto;
@@ -255,6 +352,14 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+
+    @media (max-width: $breakpoint-large) {
+      // font-size: 18px;
+      width: 80%;
+    }
+    @media (max-width: $breakpoint-tablet) {
+      font-size: 16px;
+    }
 
     & h1 {
       font-family: "Lato";
@@ -274,6 +379,13 @@
       line-height: 46px;
       text-align: center;
       color: #52658d;
+
+      @media (max-width: $breakpoint-large) {
+        font-size: 30px;
+      }
+      @media (max-width: $breakpoint-tablet) {
+        font-size: 25px;
+      }
     }
 
     & p {
@@ -284,6 +396,14 @@
       line-height: 28px;
       text-align: center;
       color: #000000;
+
+      @media (max-width: $breakpoint-large) {
+        font-size: 18px;
+        text-align: justify;
+      }
+      @media (max-width: $breakpoint-tablet) {
+        font-size: 14px;
+      }
     }
 
     & .members {
@@ -291,6 +411,12 @@
       display: flex;
       gap: 66px;
       margin-top: 50px;
+
+      @media (max-width: $breakpoint-large) {
+        flex-direction: column;
+      }
+      @media (max-width: $breakpoint-tablet) {
+      }
 
       & .item {
         & .image {
@@ -312,6 +438,13 @@
             line-height: 24px;
             text-align: center;
             color: #52658d;
+
+            @media (max-width: $breakpoint-large) {
+              font-size: 14px;
+            }
+            @media (max-width: $breakpoint-tablet) {
+              font-size: 12px;
+            }
           }
         }
       }
@@ -344,6 +477,12 @@
       opacity: 1;
       position: relative;
 
+      @media (max-width: $breakpoint-large) {
+        padding: 30px;
+      }
+      @media (max-width: $breakpoint-tablet) {
+      }
+
       & h4 {
         font-family: "Lato";
         font-style: normal;
@@ -352,6 +491,13 @@
         line-height: 32px;
         text-align: center;
         color: #ad832d;
+
+        @media (max-width: $breakpoint-large) {
+          font-size: 20px;
+        }
+        @media (max-width: $breakpoint-tablet) {
+          font-size: 18px;
+        }
       }
 
       & p {
@@ -362,6 +508,13 @@
         line-height: 28px;
         text-align: center;
         color: #000000;
+
+        @media (max-width: $breakpoint-large) {
+          font-size: 18px;
+        }
+        @media (max-width: $breakpoint-tablet) {
+          font-size: 15px;
+        }
       }
 
       & .close {
@@ -369,6 +522,11 @@
         top: 30px;
         right: 45px;
         cursor: pointer;
+
+        @media (max-width: $breakpoint-tablet) {
+          top: 20px;
+          right: 20px;
+        }
       }
     }
   }
