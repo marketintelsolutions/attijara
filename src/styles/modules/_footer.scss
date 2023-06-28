@@ -4,6 +4,15 @@
   margin-top: 154px;
   display: flex;
   align-items: center;
+  border: 2px solid blue;
+
+  @media (max-width: $breakpoint-large) {
+    margin-top: 124px;
+    padding: 18.3rem 0;
+  }
+  @media (max-width: $breakpoint-tablet) {
+    margin-top: 74px;
+  }
 
   & .content {
     display: flex;
@@ -11,7 +20,16 @@
     width: 80%;
     max-width: var(--max-width);
     margin: 0 auto;
+    border: 2px solid red;
     // grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    @media (max-width: $breakpoint-large) {
+      flex-direction: column;
+      gap: 70px;
+    }
+    @media (max-width: $breakpoint-tablet) {
+      gap: 40px;
+    }
 
     & .item {
       display: flex;
@@ -28,6 +46,13 @@
         color: #ad832d;
         text-transform: capitalize;
         min-width: 133px;
+
+        @media (max-width: $breakpoint-large) {
+          font-size: 20px;
+        }
+        @media (max-width: $breakpoint-tablet) {
+          font-size: 18px;
+        }
       }
 
       & p {
@@ -39,6 +64,24 @@
         align-items: center;
         color: #000000;
         text-transform: capitalize;
+        cursor: pointer;
+        width: fit-content;
+
+        @media (max-width: $breakpoint-large) {
+          font-size: 18px;
+        }
+        @media (max-width: $breakpoint-tablet) {
+          font-size: 15px;
+        }
+      }
+    }
+
+    .logo,
+    .contact {
+      @media (max-width: $breakpoint-large) {
+        display: none;
+      }
+      @media (max-width: $breakpoint-tablet) {
       }
     }
 

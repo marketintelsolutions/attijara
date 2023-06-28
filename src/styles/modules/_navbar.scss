@@ -6,6 +6,10 @@
   justify-content: space-between;
   align-items: center;
 
+  @media (max-width: $breakpoint-tablet) {
+    display: none;
+  }
+
   & .content {
     // border: 2px solid blue;
     width: 80%;
@@ -16,11 +20,22 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
+
+    @media (max-width: $breakpoint-large) {
+      justify-content: flex-end;
+    }
   }
 
   & .left {
     display: flex;
     gap: 17.5px;
+
+    @media (max-width: $breakpoint-large) {
+      display: none;
+      justify-items: flex-end;
+    }
+    @media (max-width: $breakpoint-tablet) {
+    }
 
     & .item {
       display: flex;
@@ -56,6 +71,7 @@
     margin: 0 auto;
     // border: 2px solid blue;
     justify-content: space-between;
+    gap: 20px;
     padding: 37px 0;
 
     & .left {
@@ -77,6 +93,13 @@
         text-align: center;
 
         color: #000000;
+
+        @media (max-width: $breakpoint-large) {
+          font-size: 20px;
+        }
+        @media (max-width: $breakpoint-tablet) {
+          font-size: 16px;
+        }
       }
     }
 
@@ -84,6 +107,10 @@
       display: flex;
       gap: 60px;
       align-items: center;
+
+      @media (max-width: $breakpoint-tablet) {
+        display: none;
+      }
 
       & .item {
         cursor: pointer;
@@ -103,6 +130,13 @@
         text-align: center;
 
         color: #000000;
+
+        @media (max-width: $breakpoint-large) {
+          font-size: 14px;
+        }
+        @media (max-width: $breakpoint-tablet) {
+          font-size: 12px;
+        }
       }
 
       & .active {
@@ -123,6 +157,13 @@
           line-height: 18px;
           text-align: right;
           color: #6b7c93;
+
+          @media (max-width: $breakpoint-large) {
+            font-size: 13px;
+          }
+          @media (max-width: $breakpoint-tablet) {
+            font-size: 11px;
+          }
         }
 
         & h3 {
@@ -136,7 +177,23 @@
           text-align: right;
 
           color: #6b7c93;
+
+          @media (max-width: $breakpoint-large) {
+            font-size: 14px;
+          }
+          @media (max-width: $breakpoint-tablet) {
+            font-size: 12px;
+          }
         }
+      }
+    }
+
+    & .menu {
+      display: none;
+
+      @media (max-width: $breakpoint-tablet) {
+        display: flex;
+        cursor: pointer;
       }
     }
   }

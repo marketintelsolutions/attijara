@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logos/logo.svg";
 import phone from "../assets/logos/phone.svg";
+import menu from "../assets/logos/menu.svg";
 import { useLocation } from "react-router-dom";
 
 const Navbar = () => {
@@ -52,6 +53,9 @@ const Navbar = () => {
               <h3>+2348074698948 </h3>
             </div>
           </div>
+        </div>
+        <div className="menu">
+          <img src={menu} alt="menu" />
         </div>
       </div>
     </nav>
