@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "../components/Footer";
 import SectionFive from "../components/Home/SectionFive";
 import SectionFour from "../components/Home/SectionFour";
@@ -9,6 +9,9 @@ import Navbar from "../components/Navbar";
 import Prenav from "../components/Prenav";
 
 const Home = () => {
+  useEffect(() => {
+    window.scroll(0, 0);
+  }, []);
   return (
     <div>
       <SectionOne />
