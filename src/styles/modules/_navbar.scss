@@ -63,16 +63,22 @@
   //   border: 2px solid red;
   display: flex;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+  position: relative;
+  justify-content: center;
 
   .nav-center {
     display: flex;
     width: 80%;
     max-width: 1140px;
-    margin: 0 auto;
-    // border: 2px solid blue;
+    // margin: 0 auto;
     justify-content: space-between;
     gap: 20px;
     padding: 37px 0;
+
+    @media (max-width: $breakpoint-large) {
+      width: 100%;
+      // padding: 37px 40px;
+    }
 
     & .left {
       display: flex;
@@ -80,18 +86,21 @@
       align-items: center;
       justify-content: center;
 
+      @media (max-width: $breakpoint-large) {
+        // font-size: 20px;
+        width: 70%;
+        // border: 2px solid red;
+        justify-content: flex-start;
+        margin: 0 auto;
+      }
+
       & h1 {
         font-family: "Neris";
         font-style: normal;
         font-weight: 600;
         font-size: 24px;
         line-height: 21px;
-        /* identical to box height, or 88% */
-
-        display: flex;
-        align-items: center;
         text-align: center;
-
         color: #000000;
 
         @media (max-width: $breakpoint-large) {
@@ -107,14 +116,35 @@
       display: flex;
       gap: 60px;
       align-items: center;
+      transition: var(--transition);
 
-      @media (max-width: $breakpoint-tablet) {
-        display: none;
+      @media (max-width: $breakpoint-large) {
+        // display: none;
+        position: absolute;
+        top: 100%;
+        z-index: 3;
+        flex-direction: column;
+        background: white;
+        width: 100%;
+        align-items: flex-start;
+        height: 0;
+        padding-bottom: 30px;
+        // transform: translateY(100%);
+        transition: var(--transition);
       }
 
       & .item {
         cursor: pointer;
         text-decoration: none;
+        transition: var(--transition);
+
+        @media (max-width: $breakpoint-large) {
+          width: 88%;
+          // border: 2px solid red;
+          margin: 0 auto;
+          // height: 0;
+          display: none;
+        }
       }
 
       & p {
@@ -123,16 +153,12 @@
         font-weight: 300;
         font-size: 16px;
         line-height: 21px;
-        /* identical to box height, or 131% */
-
-        display: flex;
-        align-items: center;
         text-align: center;
-
         color: #000000;
 
         @media (max-width: $breakpoint-large) {
           font-size: 14px;
+          text-align: left;
         }
         @media (max-width: $breakpoint-tablet) {
           font-size: 12px;
@@ -148,6 +174,10 @@
       & .phone {
         display: flex;
         gap: 10px;
+
+        @media (max-width: $breakpoint-large) {
+          display: none;
+        }
 
         & p {
           font-family: "Neris";
@@ -191,9 +221,32 @@
     & .menu {
       display: none;
 
-      @media (max-width: $breakpoint-tablet) {
+      @media (max-width: $breakpoint-large) {
         display: flex;
         cursor: pointer;
+        margin-right: 40px;
+      }
+    }
+  }
+
+  & .menu-active {
+    // border: 2px solid green;
+    & .right {
+      transition: var(--transition);
+      @media (max-width: $breakpoint-large) {
+        height: fit-content;
+        transition: var(--transition);
+      }
+      & .item {
+        @media (max-width: $breakpoint-large) {
+          display: block;
+        }
+      }
+
+      & .phone {
+        @media (max-width: $breakpoint-large) {
+          display: none;
+        }
       }
     }
   }

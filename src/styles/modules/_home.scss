@@ -180,7 +180,7 @@
 }
 
 .section-two {
-  //   border: 2px solid red;
+  // border: 2px solid red;
 
   & .content {
     width: 80%;
@@ -189,6 +189,7 @@
     display: flex;
     gap: 41px;
     // border: 2px solid blue;
+    align-items: center;
 
     @media (max-width: $breakpoint-large) {
       flex-direction: column;
