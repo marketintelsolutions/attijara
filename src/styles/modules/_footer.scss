@@ -147,6 +147,15 @@
           cursor: pointer;
         }
       }
+
+      & .contact-touch {
+        display: none;
+
+        @media (max-width: $breakpoint-large) {
+          display: flex;
+          gap: 10px;
+        }
+      }
     }
   }
 }

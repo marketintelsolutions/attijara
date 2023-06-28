@@ -50,6 +50,15 @@ const Footer = () => {
               <img src={arrowGreen} alt="arrowGreen" />
             </button>
           </div>
+
+          <div className="contact-item contact-touch">
+            <img src={phoneGrey} alt="phoneGrey" />
+            <p>
+              08036412211,
+              <br /> 07032259444,
+              <br /> 08074698948{" "}
+            </p>
+          </div>
           <p>follow</p>
           <div className="socials">
             <div className="social-item">
