@@ -20,11 +20,14 @@ const Footer = () => {
           <h2>Contact Us</h2>
           <div className="contact-item">
             <img src={locationGrey} alt="locationGrey" />
-            <p>3138 Single Lagbaja Street, Lagos Nigeria</p>
+            <p>
+              Suite C2 Wing C Plot 72, Ahmadu Bello Way, Abuja, FCT, Nigeria
+            </p>
           </div>
           <div className="contact-item">
             <img src={emailGrey} alt="emailGrey" />
             <p>info@attijara.com</p>
+            {/* <p>contact@domain.com</p> */}
           </div>
           <div className="contact-item">
             <img src={phoneGrey} alt="phoneGrey" />

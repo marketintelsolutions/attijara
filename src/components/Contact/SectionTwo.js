@@ -47,7 +47,10 @@ const SectionTwo = () => {
                 <img src={locationBig} alt="locationBig" />
                 <div className="text">
                   <p>Our Location </p>
-                  <p>9 Elsie Femi Pearse St, Victoria Island 106104, Lagos</p>
+                  <p>
+                    Suite C2 Wing C Plot 72, Ahmadu Bello Way, Abuja, FCT,
+                    Nigeria
+                  </p>
                 </div>
               </div>
               <div className="detail-item">
