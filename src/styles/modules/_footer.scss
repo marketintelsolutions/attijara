@@ -66,6 +66,7 @@
         text-transform: capitalize;
         cursor: pointer;
         width: fit-content;
+        text-decoration: none;
 
         @media (max-width: $breakpoint-large) {
           font-size: 18px;
@@ -104,6 +105,15 @@
           align-items: center;
           color: #000000;
         }
+      }
+    }
+
+    & .links {
+      & .links-item {
+        text-decoration: none;
+        color: var(--dark, #000);
+        text-transform: capitalize;
+        cursor: pointer;
       }
     }
 

@@ -8,14 +8,15 @@ import instagramBlack from "../assets/logos/instagramBlack.svg";
 import twitterBlack from "../assets/logos/twitterBlack.svg";
 import facebookBlack from "../assets/logos/facebookBlack.svg";
 import pinterestBlack from "../assets/logos/pinterestBlack.svg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="content">
-        <div className="item logo">
+        <Link to="/" className="item logo">
           <img src={logoTransparent} alt="logoTransparent" />
-        </div>
+        </Link>
         <div className="item contact">
           <h2>Contact Us</h2>
           <div className="contact-item">
@@ -40,10 +41,18 @@ const Footer = () => {
         </div>
         <div className="item links">
           <h2>quick links</h2>
-          <p className="links-item">home</p>
-          <p className="links-item">about us</p>
-          <p className="links-item">services</p>
-          <p className="links-item">contact</p>
+          {/* <Link to="/" className="links-item">
+            home
+          </Link> */}
+          <Link to="/about" className="links-item">
+            about us
+          </Link>
+          <Link to="/services" className="links-item">
+            services
+          </Link>
+          <Link to="/contact" className="links-item">
+            contact
+          </Link>
         </div>
         <div className="item touch">
           <h2>stay in touch</h2>
