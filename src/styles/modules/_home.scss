@@ -212,6 +212,7 @@
       line-height: 28px;
       text-align: justify;
       color: #000000;
+      // border: 2px solid red;
 
       @media (max-width: $breakpoint-large) {
         font-size: 18px;
@@ -219,6 +220,14 @@
       }
       @media (max-width: $breakpoint-tablet) {
         font-size: 15px;
+      }
+    }
+
+    & img {
+      @media (max-width: $breakpoint-tablet) {
+        // height: 478.5rem;
+        height: 32.25988rem;
+        width: 100%;
       }
     }
   }
