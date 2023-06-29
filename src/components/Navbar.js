@@ -18,12 +18,12 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className={menuActive ? "nav-center menu-active" : "nav-center"}>
-        <div className="left">
+        <Link to="/" className="left">
           <div className="logo">
             <img src={logo} alt="logo" />
           </div>
           <h1>Attijara Finance</h1>
-        </div>
+        </Link>
         <div className="right">
           <Link
             to="/"

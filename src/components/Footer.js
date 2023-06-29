@@ -8,23 +8,27 @@ import instagramBlack from "../assets/logos/instagramBlack.svg";
 import twitterBlack from "../assets/logos/twitterBlack.svg";
 import facebookBlack from "../assets/logos/facebookBlack.svg";
 import pinterestBlack from "../assets/logos/pinterestBlack.svg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="content">
-        <div className="item logo">
+        <Link to="/" className="item logo">
           <img src={logoTransparent} alt="logoTransparent" />
-        </div>
+        </Link>
         <div className="item contact">
           <h2>Contact Us</h2>
           <div className="contact-item">
             <img src={locationGrey} alt="locationGrey" />
-            <p>3138 Single Lagbaja Street, Lagos Nigeria</p>
+            <p>
+              Suite C2 Wing C Plot 72, Ahmadu Bello Way, Abuja, FCT, Nigeria
+            </p>
           </div>
           <div className="contact-item">
             <img src={emailGrey} alt="emailGrey" />
             <p>info@attijara.com</p>
+            {/* <p>contact@domain.com</p> */}
           </div>
           <div className="contact-item">
             <img src={phoneGrey} alt="phoneGrey" />
@@ -37,10 +41,18 @@ const Footer = () => {
         </div>
         <div className="item links">
           <h2>quick links</h2>
-          <p className="links-item">home</p>
-          <p className="links-item">about us</p>
-          <p className="links-item">services</p>
-          <p className="links-item">contact</p>
+          {/* <Link to="/" className="links-item">
+            home
+          </Link> */}
+          <Link to="/about" className="links-item">
+            about us
+          </Link>
+          <Link to="/services" className="links-item">
+            services
+          </Link>
+          <Link to="/contact" className="links-item">
+            contact
+          </Link>
         </div>
         <div className="item touch">
           <h2>stay in touch</h2>

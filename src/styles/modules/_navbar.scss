@@ -63,11 +63,19 @@
   // border: 2px solid red;
   display: flex;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
-  position: sticky;
-  top: 0;
-  left: 0;
+  // position: sticky;
+  // top: 0;
+  // left: 0;
   justify-content: center;
   z-index: 4;
+  position: relative;
+
+  @media (max-width: $breakpoint-tablet) {
+    // position: fixed;
+    // top: 20px;
+    // left: 0;
+    // height: 100%;
+  }
 
   .nav-center {
     display: flex;
@@ -77,6 +85,7 @@
     justify-content: space-between;
     gap: 20px;
     padding: 37px 0;
+    // border: 2px solid blue;
 
     @media (max-width: $breakpoint-large) {
       width: 100%;
@@ -88,6 +97,8 @@
       gap: 10px;
       align-items: center;
       justify-content: center;
+      text-decoration: none;
+      width: fit-content;
 
       @media (max-width: $breakpoint-large) {
         // font-size: 20px;
@@ -132,7 +143,7 @@
         align-items: flex-start;
         height: 0;
         padding-bottom: 30px;
-        // transform: translateY(100%);
+        transform: translateY(-100%);
         transition: var(--transition);
       }
 
@@ -237,6 +248,7 @@
       @media (max-width: $breakpoint-large) {
         height: fit-content;
         transition: var(--transition);
+        transform: translateY(0);
       }
       & .item {
         @media (max-width: $breakpoint-large) {
