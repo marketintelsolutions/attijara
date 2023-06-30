@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import locationBig from "../../assets/logos/locationBig.svg";
 import phoneBig from "../../assets/logos/phoneBig.svg";
 import mailBig from "../../assets/logos/mailBig.svg";
@@ -6,8 +6,35 @@ import linkedinBig from "../../assets/logos/linkedinBig.svg";
 import instaBig from "../../assets/logos/instaBig.svg";
 import facebookBig from "../../assets/logos/facebookBig.svg";
 import twitterBig from "../../assets/logos/twitterBig.svg";
+import { contact } from "../../utils/sendMailHelpers";
+// import createTransport from "nodemailer";
 
 const SectionTwo = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    let recipient_email = "igbagboleye@gmail.com";
+
+    // Perform form submission or data handling here
+    console.log("Form submitted:", { name, email, subject, message });
+
+    const formData = { name, email, subject, message };
+
+    const fields = Object.keys(formData);
+
+    contact({ name, email, subject, message, fields, recipient_email });
+    // Reset form fields
+    setName("");
+    setEmail("");
+    setSubject("");
+    setMessage("");
+  };
+
   return (
     <div className="contact-section-two">
       <div className="content">
@@ -18,26 +45,46 @@ const SectionTwo = () => {
           right here or contact us on any of the channels listed below
         </p>
         <div className="form-container">
-          <form className="form">
+          <form className="form" onSubmit={handleSubmit}>
             <h1>Send Us A Message</h1>
             <div className="form-item">
               <label htmlFor="name">Name</label>
-              <input type="text" id="name" />
+              <input
+                type="text"
+                id="name"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+              />
             </div>
             <div className="form-item">
               <label htmlFor="email">Email</label>
-              <input type="text" id="email" />
+              <input
+                type="text"
+                id="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
             </div>
             <div className="form-item">
               <label htmlFor="subject">Subject</label>
-              <input type="text" id="subject" />
+              <input
+                type="text"
+                id="subject"
+                value={subject}
+                onChange={(e) => setSubject(e.target.value)}
+              />
             </div>
             <div className="form-item">
               <label htmlFor="message">Message</label>
-              <textarea name="message" id="message"></textarea>
+              <textarea
+                name="message"
+                id="message"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+              ></textarea>
             </div>
             <div className="button form-item">
-              <button type="button">submit</button>
+              <button type="submit">Submit</button>
             </div>
           </form>
           <div className="info">
