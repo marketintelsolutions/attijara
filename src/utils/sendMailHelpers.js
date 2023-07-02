@@ -10,8 +10,8 @@ export const contact = ({
 }) => {
   if (name && email && message && subject) {
     axios
-      .post("http://localhost:8080/attijara/contact", {
-        //   .post("https://sage-go1t.onrender.com/attijara/contact", {
+      // .post("http://localhost:8080/attijara/contact", {
+      .post(" http://sagebackend-207c01373df4.herokuapp.com/attijara/contact", {
         name,
         email,
         subject,

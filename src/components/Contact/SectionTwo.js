@@ -18,7 +18,9 @@ const SectionTwo = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    let recipient_email = "igbagboleye@gmail.com";
+    // let recipient_email = "ziltch1technologies@gmail.com";
+    // let recipient_email = "igbagboleye@gmail.com";
+    let recipient_email = "info@attijarang.com";
 
     // Perform form submission or data handling here
     console.log("Form submitted:", { name, email, subject, message });
