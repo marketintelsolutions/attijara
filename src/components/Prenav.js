@@ -13,7 +13,7 @@ const Prenav = () => {
         <div className="left">
           <div className="item">
             <img src={email} alt="email" />
-            <p>info@attijara.com</p>
+            <p>info@attijarang.com</p>
           </div>
           <div className="item">
             <img src={location} alt="location" />

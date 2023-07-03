@@ -113,7 +113,7 @@ const SectionTwo = () => {
                 <img src={mailBig} alt="mailBig" />
                 <div className="text">
                   <p>Our Email</p>
-                  <p>info@attijara.com</p>
+                  <p>info@attijarang.com</p>
                 </div>
               </div>
             </div>
