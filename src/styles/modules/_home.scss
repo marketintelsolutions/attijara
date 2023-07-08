@@ -208,7 +208,7 @@
       font-family: "Lato";
       font-style: normal;
       font-weight: 400;
-      font-size: 20px;
+      font-size: 16px;
       line-height: 28px;
       text-align: justify;
       color: #000000;
@@ -383,7 +383,7 @@
           font-family: "Lato";
           font-style: normal;
           font-weight: 400;
-          font-size: 20px;
+          font-size: 16px;
           line-height: 28px;
           display: flex;
           align-items: center;
@@ -472,7 +472,7 @@
       font-family: "Lato";
       font-style: normal;
       font-weight: 400;
-      font-size: 20px;
+      font-size: 16px;
       line-height: 28px;
       text-align: center;
       color: #000000;
@@ -512,12 +512,15 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
+    align-items: center;
+
     @media (max-width: $breakpoint-tablet) {
       padding-top: 30rem;
     }
     & .item {
       display: flex;
-      justify-content: space-between;
+      // justify-content: space-between;
+      gap: 233px;
 
       @media (max-width: $breakpoint-large) {
         flex-direction: column-reverse;
@@ -556,7 +559,7 @@
           font-family: "Lato";
           font-style: normal;
           font-weight: 400;
-          font-size: 20px;
+          font-size: 16px;
           line-height: 28px;
           text-align: justify;
           color: #000000;
@@ -589,7 +592,7 @@
     font-family: "Lato";
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 28px;
     text-align: center;
     color: #000000;
@@ -653,7 +656,7 @@
         font-family: "Lato";
         font-style: normal;
         font-weight: 400;
-        font-size: 20px;
+        font-size: 16px;
         line-height: 28px;
         text-align: justify;
         color: #ffffff;

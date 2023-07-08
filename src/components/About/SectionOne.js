@@ -1,6 +1,6 @@
 import React from "react";
 import businessArrow from "../../assets/images/businessArrow.png";
-// import maleEmployeeFemales from "../../assets/images/maleEmployeeFemales.png";
+import maleEmployeeFemales from "../../assets/images/maleEmployeeFemales.png";
 
 const SectionOne = () => {
   return (
@@ -24,10 +24,20 @@ const SectionOne = () => {
                 philosophy at the heart of our operations, we have established
                 ourselves as a leading financial service provider in Nigeria.
                 Our team of experienced professionals is dedicated to delivering
-                exceptional service and tailored solutions to our clients.
+                exceptional service and tailored solutions to our clients.{" "}
+                <br /> <br />
+                As a locally owned and operated company, we have a deep
+                understanding of the unique challenges and opportunities in the
+                Nigerian market. We leverage this knowledge to provide
+                innovative financial products and services that cater to the
+                diverse needs of individuals, businesses, and organizations
+                across the country.
               </p>
             </div>
           </div>
+        </div>
+        <div className="right">
+          <img src={maleEmployeeFemales} alt="maleEmployeeFemales" />
         </div>
       </div>
     </div>
