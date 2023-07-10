@@ -102,7 +102,7 @@
       font-family: "Century Gothic";
       font-style: normal;
       font-weight: 600;
-      font-size: 36px;
+      font-size: 30px;
       line-height: 46px;
       /* or 128% */
       max-width: 426px;
@@ -152,12 +152,12 @@
       background: #ad832d;
       border-radius: 3px;
       border: none;
-      width: 190.11px;
+      width: 178.11px;
       height: 56px;
       font-family: "Century Gothic";
       font-style: normal;
       font-weight: 500;
-      font-size: 16px;
+      font-size: 14px;
       line-height: 16px;
       display: flex;
       align-items: center;
@@ -349,10 +349,11 @@
       }
 
       & .item {
+        // border: 2px solid blue;
         padding: 20px 45px;
         display: flex;
         align-items: center;
-        justify-content: center;
+        // justify-content: space-between;
         gap: 10px;
         flex-direction: column;
         background: #ffffff;
@@ -364,7 +365,7 @@
           font-family: "Century Gothic";
           font-style: normal;
           font-weight: 400;
-          font-size: 24px;
+          font-size: 20px;
           line-height: 32px;
           display: flex;
           align-items: center;
@@ -647,8 +648,8 @@
       & h2 {
         font-family: "Century Gothic";
         font-style: normal;
-        font-weight: 600;
-        font-size: 36px;
+        font-weight: 700;
+        font-size: 30px;
         line-height: 46px;
         color: #ffffff;
 

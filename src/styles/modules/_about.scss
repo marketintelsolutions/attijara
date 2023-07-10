@@ -9,15 +9,12 @@
 
     & .left {
       position: relative;
-      //   border: 2px solid green;
-      //   height: ;
-      //   padding: 366px 107px;
       display: flex;
+      border: 2px solid green;
 
       & .image {
         max-width: 1301px;
-        width: 75%;
-        // border: 2px solid red;
+        width: 80%;
         position: relative;
         height: 753px;
 
@@ -104,7 +101,7 @@
             font-family: "Century Gothic";
             font-style: normal;
             font-weight: 400;
-            font-size: 17px;
+            font-size: 16px;
             line-height: 28px;
             display: flex;
             align-items: center;
@@ -151,13 +148,7 @@
 
       & img {
         width: 100%;
-        // height: 989px;
-        // height: 90%;
-        // object-fit: cover;
-        // width: 51%;
-        // width: 670px;
         height: 968px;
-        // height: 100%;
         border-radius: 134px 0px 0px 0px;
 
         @media (max-width: $breakpoint-tablet) {
@@ -200,7 +191,7 @@
       font-family: "Century Gothic";
       font-style: normal;
       font-weight: 400;
-      font-size: 17px;
+      font-size: 16px;
       line-height: 28px;
       display: flex;
       align-items: center;
@@ -365,7 +356,7 @@
               font-family: "Century Gothic";
               font-style: normal;
               font-weight: 400;
-              font-size: 17px;
+              font-size: 16px;
               line-height: 22px;
               text-align: center;
               color: #000000;
@@ -436,7 +427,7 @@
       font-family: "Century Gothic";
       font-style: normal;
       font-weight: 400;
-      font-size: 17px;
+      font-size: 16px;
       line-height: 28px;
       text-align: center;
       color: #000000;
@@ -551,7 +542,7 @@
         font-family: "Century Gothic";
         font-style: normal;
         font-weight: 400;
-        font-size: 17px;
+        font-size: 16px;
         line-height: 28px;
         text-align: center;
         color: #000000;
