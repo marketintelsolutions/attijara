@@ -19,6 +19,7 @@
         width: 75%;
         // border: 2px solid red;
         position: relative;
+        height: 753px;
 
         @media (max-width: $breakpoint-tablet) {
           width: 100%;
@@ -59,7 +60,7 @@
         // margin: 0 auto;
         // border: 2px solid white;
         // top: 366px;
-        bottom: 107px;
+        bottom: 49px;
         // margin: 366px 107px;
         width: 100%;
         padding: 0 3.9rem;
@@ -84,7 +85,7 @@
           & h2 {
             font-family: "Century Gothic";
             font-style: normal;
-            font-weight: 600;
+            font-weight: 700;
             font-size: 30px;
             line-height: 46px;
             display: flex;
@@ -132,10 +133,10 @@
       width: 48%;
       //   height: 989px;
       max-width: 918px;
-      max-height: 989px;
+      // max-height: 989px;
       // border: 2px solid red;
       // width: 670px;
-      height: 800px;
+      // height: 800px;
 
       @media (max-width: $breakpoint-large) {
         width: 100%;
@@ -144,7 +145,7 @@
         height: fit-content;
       }
       @media (max-width: $breakpoint-tablet) {
-        transform: translateY(-170px);
+        transform: translateY(-30px);
         height: 15rem;
       }
 
@@ -152,10 +153,11 @@
         width: 100%;
         // height: 989px;
         // height: 90%;
-        object-fit: cover;
+        // object-fit: cover;
         // width: 51%;
         // width: 670px;
-        height: 800px;
+        height: 968px;
+        // height: 100%;
         border-radius: 134px 0px 0px 0px;
 
         @media (max-width: $breakpoint-tablet) {
@@ -184,13 +186,14 @@
   & .content {
     max-width: var(--max-width);
     margin: 0 auto 137px;
-    padding-top: 91px;
+    padding-top: 44px;
     // border: 2px solid red;
 
     @media (max-width: $breakpoint-large) {
       padding: 0 2.5rem;
     }
     @media (max-width: $breakpoint-tablet) {
+      padding-top: 94px;
     }
 
     & p {
@@ -271,7 +274,8 @@
       }
 
       & .content {
-        max-width: var(--max-width);
+        // max-width: var(--max-width);
+        padding: 0 50px;
         margin: 0 auto;
         // border: 2px solid red;
         display: flex;
@@ -289,12 +293,12 @@
           font-family: "Century Gothic";
           font-style: normal;
           font-weight: 600;
-          font-size: 36px;
+          font-size: 30px;
           line-height: 46px;
           color: #ffffff;
 
           @media (max-width: $breakpoint-large) {
-            font-size: 30px;
+            font-size: 28px;
           }
           @media (max-width: $breakpoint-tablet) {
             font-size: 25px;
@@ -307,9 +311,6 @@
           flex-wrap: wrap;
           gap: 20px;
           justify-content: center;
-          // align-items: center;
-          // grid-auto-rows: auto;
-          // border: 2px solid red;
 
           @media (max-width: $breakpoint-large) {
             width: 100%;
@@ -325,7 +326,7 @@
             background: #ffffff;
             box-shadow: 0px 8px 4px rgba(189, 186, 186, 0.25);
             border-radius: 10px;
-            max-width: 343px;
+            max-width: 393px;
 
             @media (max-width: $breakpoint-tablet) {
               padding: 15px 25px;
@@ -407,8 +408,8 @@
     & h1 {
       font-family: "Century Gothic";
       font-style: normal;
-      font-weight: 600;
-      font-size: 36px;
+      font-weight: 700;
+      font-size: 30px;
       line-height: 46px;
       text-align: center;
       color: #ad832d;
@@ -417,14 +418,14 @@
     & h2 {
       font-family: "Century Gothic";
       font-style: normal;
-      font-weight: 600;
-      font-size: 36px;
+      font-weight: 700;
+      font-size: 30px;
       line-height: 46px;
       text-align: center;
       color: #52658d;
 
       @media (max-width: $breakpoint-large) {
-        font-size: 30px;
+        font-size: 38px;
       }
       @media (max-width: $breakpoint-tablet) {
         font-size: 25px;
@@ -462,8 +463,11 @@
       }
 
       & .item {
+        min-width: 369px;
         & .image {
           border-radius: 90px 0px 0px 0px;
+          display: flex;
+          justify-content: center;
         }
 
         & .text {
@@ -477,7 +481,7 @@
             font-family: "Century Gothic";
             font-style: normal;
             font-weight: 700;
-            font-size: 17px;
+            font-size: 16px;
             line-height: 24px;
             text-align: center;
             color: #52658d;
