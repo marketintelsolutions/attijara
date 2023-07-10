@@ -99,7 +99,7 @@
     gap: 20px;
 
     & h1 {
-      font-family: "Lato";
+      font-family: "Century Gothic";
       font-style: normal;
       font-weight: 600;
       font-size: 36px;
@@ -125,7 +125,7 @@
     }
 
     p {
-      font-family: "Heebo";
+      font-family: "Century Gothic";
       font-style: normal;
       font-weight: 300;
       font-size: 16px;
@@ -154,7 +154,7 @@
       border: none;
       width: 190.11px;
       height: 56px;
-      font-family: "Heebo";
+      font-family: "Century Gothic";
       font-style: normal;
       font-weight: 500;
       font-size: 16px;
@@ -205,7 +205,7 @@
     }
 
     & p {
-      font-family: "Lato";
+      font-family: "Century Gothic";
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
@@ -270,7 +270,7 @@
       }
 
       & h2 {
-        font-family: "Lato";
+        font-family: "Century Gothic";
         font-style: normal;
         font-weight: 600;
         font-size: 36px;
@@ -288,7 +288,7 @@
       }
 
       & p {
-        font-family: "Heebo";
+        font-family: "Century Gothic";
         font-style: normal;
         font-weight: 300;
         font-size: 16px;
@@ -311,7 +311,7 @@
         background: #ad832d;
         border-radius: 3px;
         padding: 20px;
-        font-family: "Heebo";
+        font-family: "Century Gothic";
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -361,7 +361,7 @@
 
         & h3 {
           text-align: center;
-          font-family: "Lato";
+          font-family: "Century Gothic";
           font-style: normal;
           font-weight: 400;
           font-size: 24px;
@@ -380,7 +380,7 @@
         }
 
         & p {
-          font-family: "Lato";
+          font-family: "Century Gothic";
           font-style: normal;
           font-weight: 400;
           font-size: 16px;
@@ -450,17 +450,17 @@
     }
 
     & h2 {
-      font-family: "Lato";
+      font-family: "Century Gothic";
       font-style: normal;
       font-weight: 600;
-      font-size: 36px;
+      font-size: 30px;
       line-height: 46px;
       text-align: center;
       color: #52658d;
 
       @media (max-width: $breakpoint-large) {
         line-height: 36px;
-        font-size: 30px;
+        font-size: 28px;
       }
       @media (max-width: $breakpoint-tablet) {
         line-height: 26px;
@@ -469,7 +469,7 @@
     }
 
     & p {
-      font-family: "Lato";
+      font-family: "Century Gothic";
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
@@ -538,10 +538,10 @@
         max-width: 412px;
 
         & h3 {
-          font-family: "Lato";
+          font-family: "Century Gothic";
           font-style: normal;
           font-weight: 400;
-          font-size: 24px;
+          font-size: 20px;
           line-height: 32px;
           display: flex;
           align-items: center;
@@ -556,7 +556,7 @@
         }
 
         & p {
-          font-family: "Lato";
+          font-family: "Century Gothic";
           font-style: normal;
           font-weight: 400;
           font-size: 16px;
@@ -574,9 +574,14 @@
       }
 
       & .right {
+        background: var(--primary, #52658d);
+        height: 294px;
+        width: 469px;
+        display: flex;
+        justify-content: flex-end;
         & img {
           width: 435px;
-          height: 294px;
+          height: 100%;
         }
       }
     }
@@ -585,11 +590,15 @@
       @media (max-width: $breakpoint-large) {
         flex-direction: column;
       }
+
+      & .right {
+        background: var(--secondary, #ad832d);
+      }
     }
   }
 
   & .bottom-text {
-    font-family: "Lato";
+    font-family: "Century Gothic";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -636,7 +645,7 @@
       justify-content: center;
 
       & h2 {
-        font-family: "Lato";
+        font-family: "Century Gothic";
         font-style: normal;
         font-weight: 600;
         font-size: 36px;
@@ -653,7 +662,7 @@
       }
 
       & p {
-        font-family: "Lato";
+        font-family: "Century Gothic";
         font-style: normal;
         font-weight: 400;
         font-size: 16px;

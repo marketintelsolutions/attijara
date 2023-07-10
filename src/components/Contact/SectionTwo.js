@@ -95,7 +95,7 @@ const SectionTwo = () => {
               <div className="detail-item">
                 <img src={locationBig} alt="locationBig" />
                 <div className="text">
-                  <p>Our Location </p>
+                  {/* <p>Our Location </p> */}
                   <p>
                     Suite C2 Wing C Plot 72, Ahmadu Bello Way, Abuja, FCT,
                     Nigeria
@@ -105,14 +105,17 @@ const SectionTwo = () => {
               <div className="detail-item">
                 <img src={phoneBig} alt="phoneBig" />
                 <div className="text">
-                  <p>Call Us</p>
-                  <p>+234 (1) 271 8630</p>
+                  {/* <p>Call Us</p> */}
+                  {/* <p>+234 (1) 271 8630</p> */}
+                  <p>+2348036412211</p>
+                  <p>+2347032259444</p>
+                  <p>+2348074698948 </p>
                 </div>
               </div>
               <div className="detail-item">
                 <img src={mailBig} alt="mailBig" />
                 <div className="text">
-                  <p>Our Email</p>
+                  {/* <p>Our Email</p> */}
                   <p>info@attijarang.com</p>
                 </div>
               </div>

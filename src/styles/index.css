@@ -6,7 +6,7 @@ body,
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Heebo", sans-serif;
+  font-family: "Century Gothic", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -22,5 +22,12 @@ body,
     url("../assets/fonts/Neris-SemiBold.otf") format("opentype"),
     url("../assets/fonts/Neris-SemiBoldItalic.otf") format("opentype"),
     url("../assets/fonts/Neris-Thin.otf") format("opentype"),
-    url("../assets/fonts/Neris-ThinItalic.otf") format("opentype");
+    url("../assets/fonts/Neris-ThinItalic.otf") format("opentype"),
+    url("../assets/fonts/Century\ Gothic.ttf") format("truetype"),
+    url("../assets/fonts/CenturyGothic.ttf") format("truetype"),
+    url("../assets/fonts/GOTHIC.TTF") format("truetype"),
+    url("../assets/fonts/GOTHICB.TTF") format("truetype"),
+    url("../assets/fonts/GOTHICB0.TTF") format("truetype"),
+    url("../assets/fonts/GOTHICBI.TTF") format("truetype"),
+    url("../assets/fonts/GOTHICI.TTF") format("truetype");
 }
