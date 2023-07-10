@@ -22,14 +22,7 @@ body,
     url("../assets/fonts/Neris-SemiBold.otf") format("opentype"),
     url("../assets/fonts/Neris-SemiBoldItalic.otf") format("opentype"),
     url("../assets/fonts/Neris-Thin.otf") format("opentype"),
-    url("../assets/fonts/Neris-ThinItalic.otf") format("opentype"),
-    url("../assets/fonts/Century\ Gothic.ttf") format("truetype"),
-    url("../assets/fonts/CenturyGothic.ttf") format("truetype"),
-    url("../assets/fonts/GOTHIC.ttf") format("truetype"),
-    url("../assets/fonts/GOTHICB.ttf") format("truetype"),
-    url("../assets/fonts/GOTHICB0.ttf") format("truetype"),
-    url("../assets/fonts/GOTHICBI.ttf") format("truetype"),
-    url("../assets/fonts/GOTHICI.ttf") format("truetype");
+    url("../assets/fonts/Neris-ThinItalic.otf") format("opentype");
 }
 @font-face {
   font-family: "Century Gothic";
