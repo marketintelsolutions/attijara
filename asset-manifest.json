@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8d5fa34f.css",
-    "main.js": "/static/js/main.15d71c5a.js",
+    "main.css": "/static/css/main.fc5af9f1.css",
+    "main.js": "/static/js/main.d41ab045.js",
     "static/media/stackingWood.png": "/static/media/stackingWood.b4b3b7ccb6fe3b255dd0.png",
     "static/media/focused.png": "/static/media/focused.60a2eb17953948b0a0aa.png",
     "static/media/darkwoman.png": "/static/media/darkwoman.baeece65d0708167687f.png",
@@ -27,12 +27,19 @@
     "static/media/Neris-SemiBold.otf": "/static/media/Neris-SemiBold.743c8c85dd5dbec2d350.otf",
     "static/media/Neris-Light.otf": "/static/media/Neris-Light.394a0aa5c6a23e9f9d3d.otf",
     "static/media/Neris-Thin.otf": "/static/media/Neris-Thin.ab4d103e6b6a26c35788.otf",
+    "static/media/GOTHICBI.ttf": "/static/media/GOTHICBI.be4ff6bf9421b2a3d963.ttf",
     "static/media/businessArrow.png": "/static/media/businessArrow.6d9a1685b76d5cb8a62e.png",
+    "static/media/Century Gothic.ttf": "/static/media/Century Gothic.b194aa2bd524e2c973f7.ttf",
+    "static/media/CenturyGothic.ttf": "/static/media/CenturyGothic.b1b792bab1bff8f27ba7.ttf",
     "static/media/mojeed.png": "/static/media/mojeed.3f63990ef8315589cd2d.png",
     "static/media/lawal.png": "/static/media/lawal.9b640482a89ba9f6232b.png",
+    "static/media/GOTHICB0.ttf": "/static/media/GOTHICB0.bed9b78456761fa9b435.ttf",
     "static/media/mahmud.png": "/static/media/mahmud.05fcab036af23a5dcefb.png",
     "static/media/logoTransparent.svg": "/static/media/logoTransparent.8728c19eda3265ff569d1f93f0d16e0e.svg",
+    "static/media/GOTHICI.ttf": "/static/media/GOTHICI.cf2ca5f01e2e4526231e.ttf",
+    "static/media/GOTHIC.ttf": "/static/media/GOTHIC.19caf930de8d117a48c4.ttf",
     "static/media/logo.svg": "/static/media/logo.86dcef686a5744ed954b4900a8a6611e.svg",
+    "static/media/GOTHICB.ttf": "/static/media/GOTHICB.d2dcbbef07d36bcfae6b.ttf",
     "static/media/arrowBig.png": "/static/media/arrowBig.f835aee8900d998df60b.png",
     "static/media/respect.svg": "/static/media/respect.6132c59ae6c585ddff4d8456d9ceba75.svg",
     "static/media/integrity.svg": "/static/media/integrity.0fd985cf36a41d03a6b50bf42f88aa9e.svg",
@@ -59,20 +66,20 @@
     "static/media/emailGrey.svg": "/static/media/emailGrey.362e4ce78ccb93c79a52cce2685212f4.svg",
     "static/media/locationGrey.svg": "/static/media/locationGrey.9f8816ebf5a7b8bce5c51c0a0be967a7.svg",
     "static/media/email.svg": "/static/media/email.6acebf88b84dc3679c4328e994d257e7.svg",
-    "index.html": "/index.html",
     "static/media/phone.svg": "/static/media/phone.dc02887fa2ccdf0e9fabe3cec146e9ae.svg",
     "static/media/rightArrow.svg": "/static/media/rightArrow.e4b533a9d1cd65bfd5dd92f9cc76fedf.svg",
     "static/media/leftArrow.svg": "/static/media/leftArrow.03b22c301dfdab133b13733f11e045d9.svg",
+    "index.html": "/index.html",
     "static/media/arrowGreen.svg": "/static/media/arrowGreen.391e23114a6f85e154172550fab540a2.svg",
     "static/media/location.svg": "/static/media/location.18ce8110fceaa3f7dcf7c7fe261dfb46.svg",
     "static/media/locationBig.svg": "/static/media/locationBig.2fb2c61a055afc6060379a3072cc6318.svg",
     "static/media/menu.svg": "/static/media/menu.d39ac3c2ee48d9be9ac32c4094a65c2a.svg",
     "static/media/facebookBig.svg": "/static/media/facebookBig.209965df0efe0a8a7f5ed630566f7f94.svg",
-    "main.8d5fa34f.css.map": "/static/css/main.8d5fa34f.css.map",
-    "main.15d71c5a.js.map": "/static/js/main.15d71c5a.js.map"
+    "main.fc5af9f1.css.map": "/static/css/main.fc5af9f1.css.map",
+    "main.d41ab045.js.map": "/static/js/main.d41ab045.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d5fa34f.css",
-    "static/js/main.15d71c5a.js"
+    "static/css/main.fc5af9f1.css",
+    "static/js/main.d41ab045.js"
   ]
 }
