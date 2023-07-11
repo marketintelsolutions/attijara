@@ -70,6 +70,8 @@
   justify-content: center;
   z-index: 4;
   // position: relative;
+  // width: 50%;
+  height: 114px;
 
   @media (max-width: $breakpoint-tablet) {
     // position: fixed;
@@ -87,6 +89,7 @@
     gap: 20px;
     padding: 37px 0;
     // border: 2px solid blue;
+    height: 100%;
 
     @media (max-width: $breakpoint-large) {
       width: 100%;

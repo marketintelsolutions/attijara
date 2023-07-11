@@ -8,7 +8,7 @@ import { useLocation } from "react-router-dom";
 const Navbar = () => {
   const location = useLocation();
   const [path, setPath] = useState("");
-  const [menuActive, setMenuActive] = useState(true);
+  const [menuActive, setMenuActive] = useState(false);
 
   useEffect(() => {
     // console.log(location.pathname);
