@@ -342,7 +342,7 @@
     & .right {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 20px;
+      gap: 50px;
 
       @media (max-width: $breakpoint-large) {
         grid-template-columns: 1fr;
@@ -350,7 +350,7 @@
 
       & .item {
         // border: 2px solid blue;
-        padding: 20px 45px;
+        padding: 20px;
         display: flex;
         align-items: center;
         // justify-content: space-between;
@@ -359,6 +359,8 @@
         background: #ffffff;
         box-shadow: 0px 8px 4px rgba(189, 186, 186, 0.25);
         border-radius: 10px;
+        min-width: 403px;
+        max-height: 250px;
 
         & h3 {
           text-align: center;
