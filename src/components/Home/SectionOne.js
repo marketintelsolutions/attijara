@@ -15,7 +15,7 @@ const SectionOne = () => {
         return;
       }
       setCurrent(current + 100);
-    }, 4000);
+    }, 6000);
 
     return () => clearTimeout(timeout);
   }, [current]);
