@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d192d32f.css",
-    "main.js": "/static/js/main.96f42be0.js",
+    "main.js": "/static/js/main.3a76a577.js",
     "static/media/stackingWood.png": "/static/media/stackingWood.b4b3b7ccb6fe3b255dd0.png",
     "static/media/focused.png": "/static/media/focused.60a2eb17953948b0a0aa.png",
     "static/media/darkwoman.png": "/static/media/darkwoman.baeece65d0708167687f.png",
@@ -76,10 +76,10 @@
     "static/media/menu.svg": "/static/media/menu.d39ac3c2ee48d9be9ac32c4094a65c2a.svg",
     "static/media/facebookBig.svg": "/static/media/facebookBig.209965df0efe0a8a7f5ed630566f7f94.svg",
     "main.d192d32f.css.map": "/static/css/main.d192d32f.css.map",
-    "main.96f42be0.js.map": "/static/js/main.96f42be0.js.map"
+    "main.3a76a577.js.map": "/static/js/main.3a76a577.js.map"
   },
   "entrypoints": [
     "static/css/main.d192d32f.css",
-    "static/js/main.96f42be0.js"
+    "static/js/main.3a76a577.js"
   ]
 }
