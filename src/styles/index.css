@@ -8,6 +8,7 @@ body,
   box-sizing: border-box;
   font-family: "Century Gothic", sans-serif;
   scroll-behavior: smooth;
+  /* overflow-x: hidden; */
 }
 
 :root {

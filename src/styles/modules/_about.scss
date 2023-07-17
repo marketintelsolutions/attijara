@@ -516,6 +516,8 @@
       align-items: center;
       opacity: 1;
       position: relative;
+      // border: 2px solid red;
+      max-height: 80%;
 
       @media (max-width: $breakpoint-large) {
         padding: 30px;
