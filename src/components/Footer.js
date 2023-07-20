@@ -2,7 +2,7 @@ import React from "react";
 import logoTransparent from "../assets/logos/logoTransparent.svg";
 import locationGrey from "../assets/logos/locationGrey.svg";
 import emailGrey from "../assets/logos/emailGrey.svg";
-import phoneGrey from "../assets/logos/phone.svg";
+import phoneGrey from "../assets/logos/phoneNew.svg";
 import arrowGreen from "../assets/logos/arrowGreen.svg";
 import instagramBlack from "../assets/logos/instagramBlack.svg";
 import twitterBlack from "../assets/logos/twitterBlack.svg";
