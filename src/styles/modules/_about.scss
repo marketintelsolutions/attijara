@@ -522,11 +522,24 @@
       max-height: 80%;
       // height: fit-content;
       margin-top: 80px;
+      transition: var(--transition);
 
       @media (max-width: $breakpoint-large) {
+        width: 90%;
         padding: 30px;
       }
-      @media (max-width: $breakpoint-tablet) {
+      @media (max-height: 750px) {
+        width: 90%;
+        padding: 80px;
+      }
+      @media (max-height: 700px) {
+        // width: 90%;
+        height: 50%;
+        padding: 50px;
+        overflow: scroll;
+      }
+      @media (max-height: 650px) {
+        overflow: scroll;
       }
 
       & h4 {
@@ -544,22 +557,28 @@
         @media (max-width: $breakpoint-tablet) {
           font-size: 17px;
         }
+        @media (max-height: 700px) {
+          font-size: 15px;
+        }
       }
 
       & p {
         font-family: "Century Gothic";
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 28px;
         text-align: center;
         color: #000000;
 
         @media (max-width: $breakpoint-large) {
-          font-size: 17px;
+          font-size: 12px;
         }
         @media (max-width: $breakpoint-tablet) {
-          font-size: 15px;
+          font-size: 11px;
+        }
+        @media (max-height: 700px) {
+          font-size: 10px;
         }
       }
 
