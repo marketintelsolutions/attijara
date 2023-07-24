@@ -34,7 +34,7 @@ const Footer = () => {
             <img src={phoneGrey} alt="phoneGrey" />
             <p>
               08036412211,
-              <br /> 07032259444,
+              
               <br /> 08074698948{" "}
             </p>
           </div>
@@ -67,7 +67,7 @@ const Footer = () => {
             <img src={phoneGrey} alt="phoneGrey" />
             <p>
               08036412211,
-              <br /> 07032259444,
+              
               <br /> 08074698948{" "}
             </p>
           </div>
