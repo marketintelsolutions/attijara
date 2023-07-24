@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./styles/index.css";
 import "./styles/index.scss";
-import { BrowserRouter as Router, HashRouter } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import App from "./App";
 // import reportWebVitals from './reportWebVitals';
 
