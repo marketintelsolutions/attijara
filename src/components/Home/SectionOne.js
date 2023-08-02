@@ -4,6 +4,7 @@ import businessWoman from "../../assets/images/businessWoman.png";
 import workingWoman from "../../assets/images/workingWoman.png";
 import rightArrow from "../../assets/logos/rightArrow.svg";
 import leftArrow from "../../assets/logos/leftArrow.svg";
+import { Link } from "react-router-dom";
 
 const SectionOne = () => {
   const [current, setCurrent] = useState(0);
@@ -55,7 +56,7 @@ const SectionOne = () => {
           <div className="content">
             <h1>Nigeria’s best financial and investment company.</h1>
             <p>We help you save, invest and plan for generational wealth</p>
-            <button>Learn More</button>
+            <Link to="/about">Learn More</Link>
           </div>
         </div>
         <div
